@@ -26,4 +26,5 @@ console.log(4
 
  console.log(typeof"Vivek");
  console.log(typeof age);
+ 
  console.log(typeof null);
