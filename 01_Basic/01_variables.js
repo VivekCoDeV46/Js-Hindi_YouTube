@@ -2,9 +2,9 @@ const accountId = 464646;
 let accountEmail = "vivek@google.com";
 var accountPassword = "12346";
 accountCity = "Mumbai";
-let accountState;
+let accountState; //Output is Undefined
 
-// accountId = 464640; //Not allowed
+// accountId = 464640; //Not allowed or Output is TypeError
 
 accountEmail = "vivek@yahoo.com"
 accountPassword = "123456"
