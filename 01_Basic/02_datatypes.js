@@ -24,7 +24,4 @@ console.log(4
 
  //object
 
- console.log(typeof"Vivek");
- console.log(typeof age);
- 
- console.log(typeof null);
+ console.table([typeof name, typeof age, typeof isLoggedIn]);
