@@ -32,6 +32,30 @@ const myDetails = function() {
     console.log("Vivek Prajapati");    
 }
 
-console.log(typeof myDetails);
+// console.log(typeof benTen);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack Memory (Primitive), Heap Memory(Non-Primitive)
+
+let test1 = "One";
+let test2 = test1;
+test2 = "Two";
+
+// console.log(test1);
+// console.log(test2)
+
+let test3 = {
+    user:"Vivek",
+    emailId:"vivek@gmail.com"
+};
+
+let test4 = test3;
+
+test4.emailId = "vivek46@gmail.com"
+
+console.log(test3.emailId)
+console.log(test4.emailId)
