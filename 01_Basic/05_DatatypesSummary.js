@@ -45,17 +45,19 @@ let test1 = "One";
 let test2 = test1;
 test2 = "Two";
 
-// console.log(test1);
-// console.log(test2)
+console.log(test1);
+console.log(test2)
 
 let test3 = {
     user:"Vivek",
-    emailId:"vivek@gmail.com"
+    emailId:"vivek@gmail.com",
+    phoneNumber:1234567890
 };
 
 let test4 = test3;
 
 test4.emailId = "vivek46@gmail.com"
+test4.phoneNumber = 9876543210;
 
-console.log(test3.emailId)
-console.log(test4.emailId)
+console.log(test3.phoneNumber);
+console.log(test4.phoneNumber);
