@@ -36,3 +36,5 @@ console.log(Math.max(5,7,3,6,3,2,1.5));
 
 console.log(Math.random());
 console.log(Math.random());
+
+Math.random
