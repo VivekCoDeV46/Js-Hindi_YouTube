@@ -14,7 +14,7 @@ console.log(player.length);
 console.log(player.toUpperCase());
 console.log(player.charAt(4));
 console.log(player);
-console.log(player.indexOf("k"));
+console.log(player.indexOf("n"));
 
 const newplayer = player.substring(0,3);
 console.log(newplayer);
